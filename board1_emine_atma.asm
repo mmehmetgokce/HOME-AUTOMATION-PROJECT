@@ -15,7 +15,8 @@
 ; ==============================================================================
 ; VARIABLE DEFINITIONS (BANK 0)
 ; ==============================================================================
-    PSECT udata_bank0
+    
+  PSECT udata_bank0
     
 ; System Status Flags
 SYSTEM_FLAGS:     DS 1    ; Bit 0: Cooler ON, Bit 1: Heater ON
@@ -626,3 +627,4 @@ O_L:
 
 
     END
+
