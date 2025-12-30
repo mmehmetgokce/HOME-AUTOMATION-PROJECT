@@ -8,6 +8,7 @@
 ; SYSTEM CONFIGURATION
 ; Responsible: EMINE ATMA
 ; ==============================================================================
+  
     CONFIG FOSC = XT, WDTE = OFF, PWRTE = ON, BOREN = ON
     CONFIG LVP = OFF, CPD = OFF, WRT = OFF, CP = OFF
 
@@ -622,5 +623,6 @@ O_L:
     MOVF    BCD_TEMP_L, W
     MOVWF   DIGIT3_VAL
     RETURN
+
 
     END
